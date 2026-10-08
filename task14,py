@@ -1,0 +1,16 @@
+import matplotlib.pyplot as plt
+
+# Create data for 5 months
+months = ["January", "February", "March", "April", "May"]
+sales = [12000, 15000, 10000, 18000, 20000]
+
+# Create a bar chart
+plt.bar(months, sales)
+
+# Add title and labels
+plt.title("Monthly Sales")
+plt.xlabel("Months")
+plt.ylabel("Sales")
+
+# Display the chart
+plt.show()
